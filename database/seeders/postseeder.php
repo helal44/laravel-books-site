@@ -17,7 +17,10 @@ class postseeder extends Seeder
     {
         Post::create([
             'title'=>'book1',
-            'descriptions'=>'this is good book'
+            'descriptions'=>'this is good book',
+            'author'=>'helal',
+            'price'=>'150',
+            'image'=>'myimage'
         ]);
     }
 }
