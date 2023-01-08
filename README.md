@@ -1,4 +1,9 @@
-books sit: for selling books
+books sit: 
+    simple laravel task to buy books using stripe...
+tools:
+ -> payment using laravel stripe gateway
+ -> data base using mongodb
+ 
 
 to run the project :
 1- install xampp
