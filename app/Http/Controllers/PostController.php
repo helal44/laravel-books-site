@@ -39,11 +39,16 @@ class PostController extends Controller
     public function delete($id){
        $post= Post::find($id);
         $image=$post->image;
-        if(File::exists('images/'.$image)){
-         File::delete('images/'.$image);
+       
+        if(File::exists('storage/images/'.$image)){
+            File::delete('storage/images/'.$image);
         }
         $post->delete();
         return to_route('showposts');
 
+    }
+
+    public function buy(){
+        return view('posts.payment');
     }
 }

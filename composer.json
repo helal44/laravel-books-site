@@ -6,12 +6,14 @@
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
+        "cartalyst/stripe-laravel": "^14.0",
         "guzzlehttp/guzzle": "^7.2",
         "jenssegers/mongodb": "^3.9",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
-        "laravel/ui": "^4.1"
+        "laravel/ui": "^4.1",
+        "stripe/stripe-php": "^10.3"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",

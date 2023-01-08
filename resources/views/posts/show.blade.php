@@ -69,7 +69,7 @@
     <div class=" d-flex my-4">
         <p> posts</p>
         <a href="{{route('addpost')}}" class=" nav nav-link  mx-5"> Add Post</a>
-        <a href="{{route('posts')}}" class="  nav nav-link  mx-5"> Main</a>
+      
     </div>
    <div class=" col-12">
 

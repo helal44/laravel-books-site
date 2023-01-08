@@ -55,6 +55,12 @@
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                    @auth
+                                       @if (auth()->user()->name=='helal')
+                                       <a href="{{route('showposts')}}" class=" dropdown-item">Dashboard</a>
+
+                                       @endif
+                                    @endauth
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">

@@ -5,6 +5,7 @@
 
 
 <div class=" col-10 mx-3">
+    <a href="{{route('showposts')}}" class=" nav ">Back</a>
     <form action="{{route('savepost')}}" method="POST" enctype="multipart/form-data">
         @csrf
 
